@@ -2,36 +2,36 @@ import './Calculator.css';
 
 function Calculator() {
   return (
-    <div className="Calc">
-      <div className="row1 Display">0</div>
-      <div className="row2">
+    <div id="Calcu">
+      <div className="rowA Display">011</div>
+      <div className="rowB">
         <button type="button" className="Calc-button">AC</button>
         <button type="button" className="Calc-button">+/-</button>
         <button type="button" className="Calc-button">%</button>
-        <button type="button" className="Calc-button Calc-operator">&#247;</button>
+        <button type="button" className="Calc-button Calcu-operator">&#247;</button>
       </div>
-      <div className="row3">
+      <div className="rowC">
         <button type="button" className="Calc-button">7</button>
         <button type="button" className="Calc-button">8</button>
         <button type="button" className="Calc-button">9</button>
-        <button type="button" className="Calc-button Calc-operator">&#215;</button>
+        <button type="button" className="Calc-button Calcu-operator">&#215;</button>
       </div>
-      <div className="row4">
+      <div className="rowD">
         <button type="button" className="Calc-button">4</button>
         <button type="button" className="Calc-button">5</button>
         <button type="button" className="Calc-button">6</button>
-        <button type="button" className="Calc-button Calc-operator">-</button>
+        <button type="button" className="Calc-button Calcu-operator">-</button>
       </div>
-      <div className="row5">
+      <div className="rowE">
         <button type="button" className="Calc-button">1</button>
         <button type="button" className="Calc-button">2</button>
         <button type="button" className="Calc-button">3</button>
-        <button type="button" className="Calc-button Calc-operator">+</button>
+        <button type="button" className="Calc-button Calcu-operator">+</button>
       </div>
-      <div className="row6">
+      <div className="rowF">
         <button type="button" className="Calc-button-zero">0</button>
         <button type="button" className="Calc-button">.</button>
-        <button type="button" className="Calc-button Calc-operator">=</button>
+        <button type="button" className="Calc-button Calcu-operator">=</button>
       </div>
     </div>
   );

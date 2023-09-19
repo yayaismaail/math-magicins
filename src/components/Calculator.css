@@ -1,11 +1,11 @@
-.Calc {
+#Calcu {
   margin: 20vh 30vw auto;
   display: flex;
   flex-direction: column;
   width: 80vw;
 }
 
-.Calc > * {
+#Calcu > * {
   display: flex;
 }
 
@@ -36,7 +36,7 @@
   font-size: 1.3em;
 }
 
-.Calc-operator {
+.Calcu-operator {
   background-color: rgb(255, 145, 0);
 }
 

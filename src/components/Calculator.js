@@ -7,7 +7,7 @@ function Calculator() {
       <div className="rowB">
         <button type="button" className="Calc-button">AC</button>
         <button type="button" className="Calc-button">+/-</button>
-        <button type="button" className="Calc-button">%</button>
+        <button type="button" className="Calc-button">&#37;</button>
         <button type="button" className="Calc-button Calcu-operator">&#247;</button>
       </div>
       <div className="rowC">
@@ -20,7 +20,7 @@ function Calculator() {
         <button type="button" className="Calc-button">4</button>
         <button type="button" className="Calc-button">5</button>
         <button type="button" className="Calc-button">6</button>
-        <button type="button" className="Calc-button Calcu-operator">-</button>
+        <button type="button" className="Calc-button Calcu-operator">&minus;</button>
       </div>
       <div className="rowE">
         <button type="button" className="Calc-button">1</button>
@@ -29,9 +29,9 @@ function Calculator() {
         <button type="button" className="Calc-button Calcu-operator">+</button>
       </div>
       <div className="rowF">
-        <button type="button" className="Calc-button-zero">0</button>
-        <button type="button" className="Calc-button">.</button>
-        <button type="button" className="Calc-button Calcu-operator">=</button>
+        <button type="button" className="Calc-button-zero">&#48;</button>
+        <button type="button" className="Calc-button">&middot;</button>
+        <button type="button" className="Calc-button Calcu-operator">&#61;</button>
       </div>
     </div>
   );

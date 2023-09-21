@@ -1,0 +1,37 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 150px auto;
+  font-size: 2em;
+}
+
+.display {
+  background-color: silver;
+  width: 80%;
+  text-align-last: right;
+  height: 60px;
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  font-size: 1.3em;
+}
+
+.calcu {
+  display: flex;
+}
+
+.cal {
+  width: 20%;
+  border: 1px solid silver;
+  height: 60px;
+  font-size: 0.7em;
+}
+
+.zero-btn {
+  flex-basis: 40%;
+}
+
+.cal:last-child {
+  background-color: rgb(255, 145, 0);
+}

@@ -1,6 +1,7 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
+import Api from './components/Api';
 import Quote from './components/Quote';
 
 function App() {
@@ -20,11 +21,16 @@ function App() {
           <li className="navItem">
             <NavLink to="/quote" className="nav-link">Quote</NavLink>
           </li>
+          <span />
+          <li className="navItem">
+            <NavLink to="/api" className="nav-link">RANDOM QUOTES</NavLink>
+          </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
+        <Route path="/Api" element={<Api />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
     </>

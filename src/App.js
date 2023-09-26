@@ -8,17 +8,17 @@ function App() {
     <>
       <nav className="nav">
         <h1 className="head">Math Magicians</h1>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
+        <ul className="navbar">
+          <li className="navItem">
+            <NavLink to="/" className="nav-link">Home</NavLink>
           </li>
           <span />
-          <li>
-            <NavLink to="/calculator">Calculator</NavLink>
+          <li className="navItem">
+            <NavLink to="/calculator" className="nav-link">Calculator</NavLink>
           </li>
           <span />
-          <li>
-            <NavLink to="/quote">Quote</NavLink>
+          <li className="navItem">
+            <NavLink to="/quote" className="nav-link">Quote</NavLink>
           </li>
         </ul>
       </nav>

@@ -23,7 +23,7 @@ function App() {
           </li>
           <span />
           <li className="navItem">
-            <NavLink to="/api" className="nav-link">RANDOM QUOTES</NavLink>
+            <NavLink to="/api" className="nav-link">Random Quotes</NavLink>
           </li>
         </ul>
       </nav>

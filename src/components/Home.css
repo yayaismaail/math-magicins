@@ -1,3 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navItem {
+    border-right: 1px solid;
+    padding: 0 7px;
+}
+
+.navItem:last-child {
+    border-right: none;
+}
+
+.nav-link {
+    color: rgb(102, 102, 219);
+    font-size: 18px;
+}
+
 .header {
   padding-left: 30px;
   margin-left: 50px;

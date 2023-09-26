@@ -1,29 +1,29 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
 }
 
 .navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .navItem {
-    border-right: 1px solid;
-    padding: 0 7px;
+  border-right: 1px solid;
+  padding: 0 7px;
 }
 
 .navItem:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .nav-link {
-    color: rgb(102, 102, 219);
-    font-size: 18px;
+  color: rgb(102, 102, 219);
+  font-size: 18px;
 }
 
 .header {

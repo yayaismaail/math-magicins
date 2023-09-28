@@ -137,6 +137,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - GitHub: [@githubhandle](https://github.com/yayaismaail)
 - Twitter: [@twitterhandle](https://mobile.twitter.com/IsmailhalliruM1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/ismail-halliru-muhammad-2a8453127)
+👤 **Sami Ullah Tufail**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

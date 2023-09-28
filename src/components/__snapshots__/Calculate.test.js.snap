@@ -12,6 +12,7 @@ exports[`Calculator matches the snapshot 1`] = `
   >
     <div
       class="row1 Display"
+      data-testid="display"
     >
       0
     </div>

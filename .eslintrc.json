@@ -19,7 +19,7 @@
         "error",
         {
           "devDependencies": true,
-          "optionalDependencies": false,
+          "optionalDependencies": true,
           "peerDependencies": true
         }
       ],

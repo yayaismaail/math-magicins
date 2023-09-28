@@ -69,7 +69,7 @@ function QuoteDisplay() {
   return (
     <div className="quote-display">
       <h2 className="quote-title">Quote of the Day</h2>
-      <p className="quotes">{quote}</p>
+      <p className="quotes math-quote">{quote}</p>
       <h3 className="author">{author}</h3>
     </div>
   );

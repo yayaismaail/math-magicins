@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navItem {
+  border-right: 1px solid;
+  padding: 0 7px;
+}
+
+.navItem:last-child {
+  border-right: none;
+}
+
+.nav-link {
+  color: rgb(102, 102, 219);
+  font-size: 18px;
+}
+
+.header {
+  padding-left: 30px;
+  margin-left: 50px;
+  font-size: 2em;
+}
+
+.math-quote {
+  background-color: whitesmoke;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 14vh;
+  width: 60vw;
+  border: 2px solid rgb(184, 184, 184);
+  font-size: 2em;
+  padding: 20px;
+  border-radius: calc(0.1 * 100px);
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.38);
+}
+
+.big {
+  font-size: 2.5em;
+}

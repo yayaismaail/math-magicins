@@ -14,13 +14,16 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [Key Features](#key-features)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -51,7 +54,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](coming soon)
+- [Live Demo Link](https://math-magicians-app-52pm.onrender.com
+
+)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
